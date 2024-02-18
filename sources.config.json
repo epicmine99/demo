@@ -1,0 +1,20 @@
+[
+    {
+        "name": "NBC", 
+        "base_url": "https://www.nbcnews.com/",
+        "articles_url": "https://www.nbcnews.com/science/environment",
+        "source_selectors": {
+            "article_container": "article",
+            "link": "a",
+            "thumbnail": ".logo-wrap .logo svg.peacock-color"
+          },
+          "article_selectors": {
+            "title": ".article-hero-headline__htag",
+            "content": "div.article-body__content p",
+            "thumbnail": ".article-hero__main-image img",
+            "author": "span.byline-name[data-testid=\"byline-name\"]",
+            "date_published": "time[data-testid=\"timestamp__datePublished\"]",
+            "date_edited": "time[data-testid=\"timestamp__datePublished\"]"
+        }
+    }
+]
